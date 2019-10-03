@@ -31,5 +31,3 @@ group_train.add_argument('--log_interval', type=int, default=100)
 #################################################################
 FLAGS, _ = parser.parse_known_args()
 
-print(str(Path(__file__).parents[1]))
-
